@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Happy Birthday</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+  <style>
+  body{
+  background-color:orange;
+  }
+  
+  
+  .my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce ; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+  
+  
+  
+  /* All animations will take twice as long to finish */
+:root {
+  --animate-duration: 2s;
+</style>
+</head>
+  
+  
+  <body>
+   <main class="animate__animated animate__bounceInLeft">
+  <h1 class="animate__animated animate__bounce ">Happy Birthday</h1>
+  <h2>Wishing you  a Happy Birthday .Thank God for all our blessings</h2>
+  <img src="https://images.unsplash.com/photo-1559620192-032c4bc4674e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=429&q=80   width=400px  height=400px"  class="center">
+
+ 
+<p class="theText">Enjoy! </p>
+ 
+<script type="text/javascript">
+$(document).ready(function(){
+$("h2").css("background-color","white");
+}); 
+</script>  
+  </body>
+  </html>
